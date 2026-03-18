@@ -18,4 +18,7 @@ setup(name='unitree_sdk2py',
             "numpy",
             "opencv-python",
       ],
+      package_data={
+          "unitree_sdk2py": ["utils/lib/*.so"],
+      }
       )
